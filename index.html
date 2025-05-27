@@ -1,118 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy - MyScoreTracker</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f9f9f9;
-        color: #333;
-        margin: 0;
-        padding: 0;
+<head>
+  <meta charset="UTF-8" />
+  <title>MyScoreTracker</title>
+  <script>
+    window.onload = function () {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/iPhone|iPad|iPod/i.test(userAgent)) {
+        window.location.href = "https://apps.apple.com/app/id6744650366";
+      } else if (/Android/i.test(userAgent)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.appzerty.scoretracker";
+      } else {
+        window.location.href = "https://linktr.ee/myscoretracker";
       }
-      .container {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-      h1 {
-        font-size: 24px;
-        color: #007bff;
-        text-align: center;
-      }
-      h2 {
-        font-size: 18px;
-        color: #0056b3;
-        margin-top: 20px;
-      }
-      p {
-        margin: 10px 0;
-      }
-      a {
-        color: #007bff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>MyScoreTracker Privacy Policy</h1>
-      <p><strong>Last updated: 04/15/2025</strong></p>
-
-      <h2>Data Collection</h2>
-      <p>
-        The <strong>MyScoreTracker</strong> application collects device
-        identifiers (such as device ID, Android ID) for the purpose of app
-        functionality and performance analysis. These identifiers are not shared
-        with third parties and are not stored in a way that allows
-        identification of individual users.
-      </p>
-
-      <h2>Device Permissions</h2>
-      <p>
-        The application does not request any special permissions to operate on
-        your device, but it may collect device identifiers necessary for
-        functionality and performance improvements.
-      </p>
-
-      <h2>Target Audience</h2>
-      <p>
-        <strong>MyScoreTracker</strong> is designed for a general audience and
-        can be used by children aged 6 and up. No personal or sensitive data
-        from children is collected or shared.
-      </p>
-
-      <h2>Sensitive Content</h2>
-      <p>
-        The application does not contain any sensitive or inappropriate content.
-        It is suitable for family use.
-      </p>
-
-      <h2>Security</h2>
-      <p>
-        Although we do not collect any personal data, we have implemented
-        security measures to ensure the application is safe and respects the
-        privacy of all its users, including children. The device identifiers
-        collected are stored securely and used solely for the purpose of
-        enabling app functionality and improving app performance.
-      </p>
-
-      <h2>Data Storage and Sharing</h2>
-      <p>
-        The device identifiers collected are stored locally within the app using
-        secure storage methods and are not shared with any third parties.
-      </p>
-
-      <h2>Changes to This Policy</h2>
-      <p>
-        We may update this privacy policy from time to time. Any changes will be
-        posted on this page. We encourage you to review this policy periodically
-        to stay informed.
-      </p>
-
-      <h2>Contact</h2>
-      <p>
-        If you have any questions regarding this privacy policy, please contact
-        us at:
-        <a href="mailto:appzerty.contact@gmail.com"
-          >appzerty.contact@gmail.com</a
-        >.
-      </p>
-
-      <p><strong>Have fun with MyScoreTracker!</strong></p>
-    </div>
-    <image src="./MyScoreTracker_avatar.png" style="display: none" />
-    <embed src="./MyScoreTracker_flyer_en.pdf"type="application/pdf" style="display: none" />
-    <embed src="./MyScoreTracker_flyer_fr.pdf"type="application/pdf" style="display: none" />
-    <embed src="./MyScoreTracker_flyer_es.pdf"type="application/pdf" style="display: none" />
-  </body>
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting…</p>
+      <image src="./avatar.png" style="display: none" />
+    <embed src="./flyer_en.pdf"type="application/pdf" style="display: none" />
+    <embed src="./flyer_fr.pdf"type="application/pdf" style="display: none" />
+    <embed src="./flyer_es.pdf"type="application/pdf" style="display: none" />
+</body>
 </html>
