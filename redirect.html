@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting to Store</title>
+  <script>
+    window.onload = function () {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/iPhone|iPad|iPod/i.test(userAgent)) {
+        window.location.href = "https://apps.apple.com/app/id6744650366";
+      } else if (/Android/i.test(userAgent)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.appzerty.scoretracker";
+      } else {
+        window.location.href = "https://linktr.ee/myscoretracker";
+      }
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting…</p>
+</body>
+</html>
