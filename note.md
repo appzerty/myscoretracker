@@ -9,3 +9,4 @@ https://appzerty.github.io/myscoretracker/flyer_fr.pdf
 
 
 https://appzerty.github.io/myscoretracker/redirect.html
+https://appzerty.github.io/myscoretracker
